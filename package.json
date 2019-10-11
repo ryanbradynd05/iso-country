@@ -1,0 +1,15 @@
+{
+  "name": "iso-country",
+  "version": "1.0.0",
+  "description": "Search for Countries by ISO Codes",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "author": "Ryan Brady <ryanbradynd05@gmail.com>",
+  "license": "MIT",
+  "types": "lib/index.d.ts",
+  "main": "lib/index.js",
+  "devDependencies": {
+    "typescript": "^3.6.4"
+  }
+}
