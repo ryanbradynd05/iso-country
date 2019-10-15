@@ -4,9 +4,10 @@
     "declaration": true,
     "outDir": "lib",
     "target": "es5",
-    "lib": ["es2017", "es7", "es6"],
+    "lib": ["es2017", "es7", "es6", "dom"],
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "allowJs": false
   },
   "exclude": [
     "node_modules"

@@ -2021,7 +2021,7 @@ const countries: CountryData[] = [
 export const isoCountry: (code: string) => Country | null = (code: string) => {
   const upCode = code.toUpperCase();
   const found = countries.find((country: CountryData) => {
-    country.iso2 === upCode || country.iso3 === upCode;
+    return country.iso2 === upCode || country.iso3 === upCode;
   });
   return found ? {
     code: found.iso2,
