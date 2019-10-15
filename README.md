@@ -31,8 +31,8 @@ console.log(unitedStates);
 ## License
 Unless stated otherwise all works are:
 
-  * Copyright &copy; 2019+ Ryan Brady
+ * Copyright &copy; 2019+ Ryan Brady
 
 and licensed under:
 
-  * [MIT License](http://spdx.org/licenses/MIT.html)
+ * [MIT License](http://spdx.org/licenses/MIT.html)
