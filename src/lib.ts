@@ -2018,9 +2018,16 @@ const countries: CountryData[] = [
   }
 ];
 
-export const isoCountry = (code: string) => {
+export const isoCountry: (code: string) => Country | null = (code: string) => {
   const upCode = code.toUpperCase();
-  return countries.find((country: CountryData) => {
+  const found = countries.find((country: CountryData) => {
     country.iso2 === upCode || country.iso3 === upCode;
   });
+  return found ? {
+    code: found.iso2,
+    name: found.name,
+    localName: found.localName,
+    emoji: found.emoji,
+    emojiCode: found.emojiCode
+  } as Country : null;
 }
