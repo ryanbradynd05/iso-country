@@ -1499,7 +1499,7 @@ const countries: CountryData[] = [
   {
     iso2: 'RU',
     iso3: 'RUS',
-    name: 'Russian Federation',
+    name: 'Russia',
     localName: 'Россия',
     emoji: '🇷🇺',
     emojiCode: '1F1F7 1F1FA'
