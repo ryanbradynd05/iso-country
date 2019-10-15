@@ -1,6 +1,6 @@
 {
   "name": "iso-country",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Search for Countries by ISO Codes",
   "scripts": {
     "prepublish": "tsc"
