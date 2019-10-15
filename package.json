@@ -1,10 +1,20 @@
 {
   "name": "iso-country",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Search for Countries by ISO Codes",
   "scripts": {
     "prepublish": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanbradynd05/iso-country"
+  },
+  "keywords": [
+    "ISO3166",
+    "country",
+    "country-code",
+    "country code"
+  ],
   "author": "Ryan Brady <ryanbradynd05@gmail.com>",
   "license": "MIT",
   "types": "lib/index.d.ts",
