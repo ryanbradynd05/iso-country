@@ -18,7 +18,7 @@ interface CountryData {
 const countries: CountryData[] = [
   {
     iso2: 'AB',
-    iso3: 'AB',
+    iso3: 'SCT',
     name: 'Scotland',
     localName: 'Alba',
     emoji: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
@@ -26,7 +26,7 @@ const countries: CountryData[] = [
   },
   {
     iso2: 'WL',
-    iso3: 'WL',
+    iso3: 'WLS',
     name: 'Wales',
     localName: 'Cymru',
     emoji: '🏴󠁧󠁢󠁷󠁬󠁳󠁿',
