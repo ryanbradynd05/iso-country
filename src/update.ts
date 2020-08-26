@@ -1,8 +1,8 @@
-function getEmoji(code) {
+function getEmoji(code: string) {
 	return code.toUpperCase().replace(/./g, char => String.fromCodePoint(char.charCodeAt(0)+127397) );
 }
 
-function getUnicode(str) {
+function getUnicode(str: any) {
 	if (str.length < 4) {
     return str.codePointAt(0).toString(16);
   }
@@ -12,7 +12,7 @@ function getUnicode(str) {
 fetch('https://restcountries.eu/rest/v2/all')
 	.then(result => result.json())
 	.then(countries => {
-		const output = countries.map((country) => {
+		const output = countries.map((country: any) => {
     	const emoji = getEmoji(country.alpha2Code);
     	return {
       	iso2: country.alpha2Code,
