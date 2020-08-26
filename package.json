@@ -3,7 +3,7 @@
   "version": "1.0.7",
   "description": "Search for Countries by ISO Codes",
   "scripts": {
-    "prepublish": "tsc",
+    "prepublishOnly": "tsc",
     "test": "jest"
   },
   "repository": {
@@ -21,12 +21,12 @@
   "types": "lib/index.d.ts",
   "main": "lib/index.js",
   "devDependencies": {
-    "@babel/core": "7.6.4",
-    "@babel/preset-env": "7.6.3",
-    "@babel/preset-typescript": "7.6.0",
-    "@types/jest": "24.0.19",
-    "babel-jest": "24.9.0",
-    "jest": "24.9.0",
+    "@babel/core": "7.11.4",
+    "@babel/preset-env": "7.11.0",
+    "@babel/preset-typescript": "7.10.4",
+    "@types/jest": "26.0.10",
+    "babel-jest": "26.3.0",
+    "jest": "26.4.2",
     "typescript": "^3.6.4"
   }
 }
