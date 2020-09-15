@@ -2,14 +2,18 @@
   "compileOnSave": false,
   "compilerOptions": {
     "declaration": true,
-    "outDir": "lib",
-    "target": "es5",
-    "lib": ["es2017", "es7", "es6", "dom"],
+    "outDir": "./lib/esm",
+    "module": "ES2015",
+    "target": "ES2017",
+    "lib": ["ES2020", "dom"],
     "strict": true,
     "esModuleInterop": true,
-    "allowJs": false
+    "allowJs": false,
+    "moduleResolution": "node"
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "lib",
+    "test"
   ]
 }
