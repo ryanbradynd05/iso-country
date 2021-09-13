@@ -1490,7 +1490,7 @@ const countries: CountryData[] = [
   },
   {
     iso2: 'XK',
-    iso3: 'KOS',
+    iso3: 'XKX',
     name: 'Kosovo',
     localName: 'Republika e Kosovës',
     emoji: '🇽🇰',
