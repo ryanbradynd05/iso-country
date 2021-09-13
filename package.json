@@ -1,6 +1,6 @@
 {
   "name": "iso-country",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Search for Countries by ISO Codes",
   "scripts": {
     "build": "del lib && npm run build:es && npm run build:cjs",
