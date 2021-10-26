@@ -19,7 +19,9 @@ console.log(unitedStates);
 
 /*
 {
-  code: 'us',
+  code: 'US',
+  iso2: 'US',
+  iso3: 'USA',
   name: 'United States',
   localName: 'United States',
   emoji: '🇺🇸',
