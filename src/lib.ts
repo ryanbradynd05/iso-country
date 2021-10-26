@@ -1,9 +1,5 @@
-export interface Country {
+export interface Country extends CountryData {
   code: string;
-  name: string;
-  localName: string;
-  emoji: string;
-  emojiCode: string;
 }
 
 interface CountryData {
@@ -2041,9 +2037,6 @@ export const isoCountry: (code: string) => Country | null = (code: string) => {
   });
   return found ? {
     code: found.iso2,
-    name: found.name,
-    localName: found.localName,
-    emoji: found.emoji,
-    emojiCode: found.emojiCode
+    ...found
   } as Country : null;
 }
