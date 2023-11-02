@@ -1399,7 +1399,7 @@ const countries: CountryData[] = [
   {
     iso2: 'PS',
     iso3: 'PSE',
-    name: 'Palestine',
+    name: 'Gaza Strip',
     localName: 'فلسطين',
     emoji: '🇵🇸',
     emojiCode: '1F1F5 1F1F8'
